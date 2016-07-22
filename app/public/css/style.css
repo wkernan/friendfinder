@@ -21,7 +21,7 @@ nav {
 }
 
 nav .brand-logo.center {
-	font-size: 90px;
+	font-size: 78px;
 }
 
 nav .brand-logo.center:hover {
@@ -50,7 +50,7 @@ nav .brand-logo.center:hover {
 }
 
 .chosen {
-	width: 300px;
+	width: 350px;
 }
 
 .btn {
@@ -66,7 +66,7 @@ button:focus {
 }
 
 .survey {
-	margin-top: 39px;
+	margin-top: 40px;
 }
 
 footer a {
@@ -75,4 +75,27 @@ footer a {
 
 footer a:hover {
 	color: #448AFF;
+}
+
+@media screen and (max-width: 570px) {
+	nav .brand-logo.center {
+		font-size: 54px;
+	}
+	h2 {
+		font-size: 38px;
+	}
+	h3 {
+		margin-top: 0;
+		font-size: 32px;
+	}
+	h4 {
+		font-size: 24px;
+	}
+	.survey {
+		margin-top: 48px;
+	}
+
+	.chosen {
+		width: 100%;
+	}
 }
