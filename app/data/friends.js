@@ -11,7 +11,7 @@ var friendsArr = [
 	}, 
 	{
 		name: "Mila Kunis",
-		photo: "http://ia.media-imdb.com/images/M/MV5BODQyNTQyNzY4MV5BMl5BanBnXkFtZTcwODg5MDA3MQ@@._V1_UY317_CR25,0,214,317_AL_.jpg",
+		photo: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTNMqS-5kDfF8z4bSd1RANjPh_AL0_YzefFauUIoSTRhOx4gfQ9Rg",
 		scores: ['1','1','1','1','1','1','1','1','1','1']
 	}
 ]

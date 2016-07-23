@@ -42,7 +42,7 @@
       			<h5>You prefer dogs to cats.</h5>
       		  <div class="input-field col s12">
 					    <select class="chosen" id="q1">
-					      <option value="0" disabled selected>Choose your option</option>
+					      <option value="" disabled selected>Choose your option</option>
 					      <option value="1">1 (Strongly Disagree)</option>
 					      <option value="2">2</option>
 					      <option value="3">3</option>
@@ -198,13 +198,13 @@
 	</footer>
   <div id="modal1" class="modal">
   	<div class="modal-header">
-  		<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">done</i></a>
+  		<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
   	</div>
-    <div class="modal-content">
-    	<h3 class="center-align">Your Best Friend Is</h3>
+    <div class="modal-content center-align">
+    	<h3>Your Best Friend Is</h3>
     	<hr>
       <h4 id="matchName"></h4>
-      <img id="matchImg" onError="this.src='https://answers.atlassian.com/images/icons/profilepics/default.png'"></img>
+      <img id="matchImg" onError="this.src='https://answers.atlassian.com/images/icons/profilepics/default.png'" height="300px" width="300px"></img>
     </div>
   </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -254,7 +254,7 @@
     	});
   		$("#name").val("");
   		$("#pic").val("");
-      $('.chosen').val("");
+      $('option').val("");
   		$("#name").focus();
 		} else {
 			alert("Please fill out all fields before submitting!");
