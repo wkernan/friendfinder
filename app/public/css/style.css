@@ -49,6 +49,10 @@ nav .brand-logo.center:hover {
 	background-color: #448AFF;
 }
 
+.modal-header {
+	float: right;
+}
+
 .chosen {
 	width: 350px;
 }
