@@ -24,7 +24,7 @@
 			<hr>
 			<h4>About You</h4>
 		  <div class="row">
-    		<form class="col s12">
+    		<form class="col s12" id="myForm">
     			<div class="row">
         		<div class="input-field col s12">
           		<input id="name" type="text" class="validate formInput" required>
@@ -254,7 +254,8 @@
     	});
   		$("#name").val("");
   		$("#pic").val("");
-      $('option').val("");
+      var x = document.getElementById("myForm");
+      x.reset();
   		$("#name").focus();
 		} else {
 			alert("Please fill out all fields before submitting!");
