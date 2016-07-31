@@ -2,7 +2,7 @@
 
 Project 13 for UT BootCamp
 
-Check it out on [Heroku](https://github.com/wkernan/friendfinder)
+Check it out on [Heroku](https://friend-find.herokuapp.com/)
 
 Node Modules 
 * Express
